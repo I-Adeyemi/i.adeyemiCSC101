@@ -16,16 +16,16 @@ fn main() {
 
    //Menu display
 
-    println!("{m}"); // centering of title
+    println!("{m}"); // centring of title
     println!("  (S/N)         Menu                      Prices");
     println!("(P)(1) Poundo Yam/Edinkaiko Soup         -N3,200");
     println!("\n(F)(2) Fried Rice & Chicken              -N3,000");
     println!("\n(A)(3) Amala & Ewedu Soup                -N2,500");
     println!("\n(E)(4) Eba & Egusi Soup                  -N2,000");
     println!("\n(W)(5) White Rice & Stew                 -N2,000");
-    println!("{g}"); // centering of salutations
-    println!("{g_1}"); // centering of question
-    println!("{g_2}"); // centering of command
+    println!("{g}"); // centring of salutations
+    println!("{g_1}"); // centring of question
+    println!("{g_2}"); // centring of command
 
     let mut input1 = String::new();
     let mut input2 = String::new();
